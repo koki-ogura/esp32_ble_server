@@ -6,7 +6,7 @@ $ cd ~/catkin_ws/src
 $ git clone https://github.com/koki-ogura/esp32_ble_server.git
 ```
 ### setting esp32 device with udev
-#### insert esp32 device that already installed esp32_ble_cont firmware
+#### insert esp32 device that already installed [esp32_ble_cont firmware](https://github.com/koki-ogura/esp32_ble_cont.git)
 ##### check device name (/dev/ttyUSB0, /dev/ttyUSB1, ...)
 ```.sh
 $ ls -al /dev/ttyUSB*
